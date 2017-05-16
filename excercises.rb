@@ -138,16 +138,53 @@ cousins_ages = {
 # Excercise 6
 #------------
 
-movie_lists_by_year = {
-  1999 = ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
-  2009 = ["Avatar", "Star Trek", "District 9"],
-  2019 = ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars Episode 9"]
-}
+# movie_lists_by_year = {
+#   1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+#   2009 => ["Avatar", "Star Trek", "District 9"],
+#   2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars Episode 9"]
+# }
 
-phone_buttons = [ [1, 2, 3], [4, 5, 6], [7, 8, 9], ["*", 0, "#"]  ]
+# phone_buttons = [ [1, 2, 3], [4, 5, 6], [7, 8, 9], ["*", 0, "#"]  ]
 
 country_info = [
-  {name: "Canada", continent: "North America", island: "No"},
-  {name: "England", continent: "Europe", island: "Yes"},
-  {name: "Brazil", continent: "South America", island: "No"}
+  {name: "Canada",  continent: "North America", island: "No"},
+  {name: "England", continent: "Europe",        island: "Yes"},
+  {name: "Brazil",  continent: "South America", island: "No"}
 ]
+
+# 20.times do
+#   puts "I will not skateboard in the halls"
+# end
+
+# skateboard = []
+# 20.times do
+#   skateboard << "I will not skateboard in the halls"
+# end
+# puts skateboard
+
+# fiddy_cent = (1..50).to_a
+# puts fiddy_cent
+
+# fiddy_cent = (1..50).to_a
+# sum_of_fiddy = 0
+# fiddy_cent.each do |sum|
+#   sum_of_fiddy += sum
+# end
+# puts sum_of_fiddy
+
+# three_fiddy = []
+# fiddy_cent = (1..50).to_a
+# fiddy_cent.each do |repeat|
+#   3.times do
+#     three_fiddy << repeat
+#   end
+# end
+# puts three_fiddy
+
+# new_country = []
+# country_info.each do |country|
+#   if country[:island] == "No"
+#     new_country << country
+#   end
+# end
+# puts new_country, country_info
