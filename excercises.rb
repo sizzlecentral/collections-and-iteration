@@ -24,9 +24,9 @@ movie_years = {
 }
 
 city_populations = {
-  "Tokyo" => "38 million",
-  "Jakarta" => "30 million",
-  "Delhi" => "25 million"
+  "Tokyo" => 38000000,
+  "Jakarta" => 30000000,
+  "Delhi" => 25000000
 }
 
 cousins_ages = {
@@ -101,5 +101,26 @@ cousins_ages = {
 # end
 # puts heads_only.length
 
-artists["Dylan"].delete
-puts artists
+# artists.delete("Dylan")
+# puts artists
+
+# city_populations["Jakarta"] = 12000000
+# puts city_populations
+
+
+# Excercise 5
+#------------
+
+# total_pop = 0
+# city_populations.each do |city, population|
+#   total_pop += population
+# end
+# puts total_pop
+
+# cousins_ages.each do |name, age|
+#   if age > 30
+#     puts "#{name} is old."
+#   else
+#     puts "#{name} is young."
+#   end
+# end
